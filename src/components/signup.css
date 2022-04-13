@@ -1,0 +1,169 @@
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    padding: 3rem;
+    margin-left: 5rem;
+    background-color: white;
+    width: 30rem;
+    border-radius: 1rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 5px;
+    color: rgb(66, 14, 66);
+
+}
+.para {
+    font-size: 110%;
+}
+input, select, input::placeholder {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    height: 50px;
+    color: rgb(66, 14, 66);
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+}
+button{
+    color: White;
+    background-color: rgb(66, 14, 66);
+    border: none;
+    border-radius: 0.3rem;
+    width: 20%;
+    padding: 5px;
+    font-size: 110%;
+    height: 50px;
+    margin: auto;
+    width: fit-content;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+input[type="text"], select {
+    padding: 5px;
+    font-size: 110%;
+    border: 0.1px solid rgb(66, 14, 66) ;
+    color: rgb(66, 14, 66);
+
+}
+.logo   {
+    color: rgb(66, 14, 66);
+}
+hr{
+    border-top: 0.5px solid rgb(66, 14, 66);
+    margin: 1rem 0;
+    
+} */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(247, 231, 241);
+    width: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo {
+    margin: 5rem;
+}
+.form{
+    background-color: white;
+    margin: 0 5rem;
+    padding: 2rem;
+    width: 30%;
+    border-radius: 1rem;
+    margin: 4rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgb(66, 14, 66);
+
+}
+form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    border-top: 0.5px solid rgb(66, 14, 66);
+    margin: 1rem 0;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.para {
+    font-size: 110%;
+}
+h4 {
+    align-self: flex-start;
+    
+}
+input, select, input::placeholder {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    height: 2.5rem;
+    color: rgb(66, 14, 66);
+    border: none;
+    border-radius: 0.3rem;
+    outline: none;
+
+}
+button{
+    color: White;
+    background-color: rgb(66, 14, 66);
+    border: none;
+    border-radius: 0.3rem;
+    width: 20%;
+    padding: 5px;
+    font-size: 110%;
+    height: 2.5rem;
+    width: 50%;
+    margin-top: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="text"], select {
+    padding: 5px;
+    font-size: 110%;
+    border: 0.1px solid rgb(66, 14, 66) ;
+    color: rgb(66, 14, 66);
+}
+@media screen and (max-width:700px) {
+    .container{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: auto;
+}
+.logo{
+    align-self: flex-start;
+}
+p{
+    display: none;
+}
+.form{
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 1rem 0.1rem rgb(66, 14, 66);
+    width: 80vw;
+    align-self: flex-start;
+    margin: auto;
+    /* padding: 1rem; */
+}
+button {
+    width: fit-content;
+}
+}
